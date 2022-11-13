@@ -39,23 +39,34 @@ The Jupyter notebook used can be found in **SqlAlchemy_Challenge\SurfsUp\climate
 ## 2) Design Climate App
 1)  Use Flask to create the following routes:
 
-1.1)    ** / ** 
+1.1)    **/** 
 -   This is the homepage. List all the available routes here.
+![image](https://user-images.githubusercontent.com/111614210/201545794-8262a6c4-77f6-43dd-a7f8-410e24dffafe.png)
 
-1.2)    ** /api/v1.0/precipitation **
+1.2)    **/api/v1.0/precipitation**
 -   Convert the query results from the precipitation analysis, to retrieve only the last 12 months of data, to a dictionary using date as the key and prcp as the value.  
 -   Return the JSON representation of your dictionary.
 
-1.3)    ** /api/v1.0/stations **
+![image](https://user-images.githubusercontent.com/111614210/201545839-9f0616dc-55ba-47d2-9004-bc605f11679c.png)
+
+1.3)    **/api/v1.0/stations**
 -   Return a JSON list of stations from the dataset.
 
-1.4)    ** /api/v1.0/tobs **
+![image](https://user-images.githubusercontent.com/111614210/201545896-4d4647b1-8b96-43a7-a9e7-cec07c8a730c.png)
+
+1.4)    **/api/v1.0/tobs**
 -   Query the dates and temperature observations of the most-active station for the previous year of data.
 -   Return a JSON list of temperature observations for the previous year.
 
-1.5)    ** /api/v1.0/<start> ** and ** /api/v1.0/<start>/<end> **
+![image](https://user-images.githubusercontent.com/111614210/201546139-2163e20d-bc9f-428f-ba04-fe2f887e2cb8.png)
+
+1.5)    **/api/v1.0/<start> ** and ** /api/v1.0/<start>/<end>**
 -   Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 -   For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
 -   For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 -   Return an error message if the start date is greater than the last available date in the dataset or if the end date is less than the oldest date in the dataset.
+  
+![image](https://user-images.githubusercontent.com/111614210/201546029-74eab65a-d199-4f28-8734-be215bf08738.png)![image](https://user-images.githubusercontent.com/111614210/201546075-d5344125-6771-4a75-9bce-f28aa5004e85.png)
+
+
 
