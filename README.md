@@ -77,13 +77,15 @@ This analysis is performed to answer the following question: Hawaii is reputed t
 **Null Hypothesis**: Hawaii is reputed to enjoy mild weather all year round. The temperatures in June and December similar.
 **Alternate Hypothesis**: The temperatures in June and December are different.
 2)  Calculate the average temperature in June and December at all stations across all available years in the dataset.
+
+![image](https://user-images.githubusercontent.com/111614210/201547297-17177992-820b-4743-85ea-6a1ea03ba9c5.png)
+![image](https://user-images.githubusercontent.com/111614210/201547331-de42a3f5-1345-4288-8c80-dbcf01dc9d12.png)
+
 3)  Run t-test. An unpaired t-test should be used here, as the size of the June and December tobs data are different.
 4)  The unpaired t-test performed on the June and December collections gives the following results:
 -   The p-value (3.9025129038616655e-191) is less than 0.05, so the null hypothesis can be rejected.
 -   This means that the alternate hypothesis stands true.
 -   This is also confirmed by the mean June and December temperatures calculated above. The December average temperature is around 4F less than that of June.
-
-
 
 The Jupyter notebook used can be found in **SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_1.ipynb**
 
