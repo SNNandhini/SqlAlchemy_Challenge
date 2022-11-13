@@ -74,8 +74,8 @@ The Python script used can be found in **SqlAlchemy_Challenge\SurfsUp\app.py**
 This analysis is performed to answer the following question: Hawaii is reputed to enjoy mild weather all year round. Is there a meaningful difference between the temperatures in, for example, June and December?
 
 1)  The hypotheses used to answer the question above are as follows:
-**Null Hypothesis**: Hawaii is reputed to enjoy mild weather all year round. The temperatures in June and December similar.
-**Alternate Hypothesis**: The temperatures in June and December are different.
+- **Null Hypothesis**: Hawaii is reputed to enjoy mild weather all year round. The temperatures in June and December similar.
+- **Alternate Hypothesis**: The temperatures in June and December are different.
 2)  Calculate the average temperature in June and December at all stations across all available years in the dataset.
 
 ![image](https://user-images.githubusercontent.com/111614210/201547297-17177992-820b-4743-85ea-6a1ea03ba9c5.png) ![image](https://user-images.githubusercontent.com/111614210/201547331-de42a3f5-1345-4288-8c80-dbcf01dc9d12.png)
@@ -99,23 +99,32 @@ This analysis is performed to answer the following question: You want to take a 
 -   Use the average temperature as the bar height (_y_ value).
 -   Use the peak-to-peak (TMAX-TMIN) value as the _y_ error bar (YERR).
 
+![image](https://user-images.githubusercontent.com/111614210/201548634-0e8ce279-14a6-413a-81bd-5940308b99ad.png)
+
 ### 4.2)    Daily Rainfall Average
 This analysis is performed to answer the following question: Now that you have an idea of the temperature, let’s find out what the rainfall has been. You don't want to visit if it rains the whole time!
 
 1)  Calculate the rainfall per weather station using the previous year's matching dates.
 
+![image](https://user-images.githubusercontent.com/111614210/201548682-06a8d4e0-1a53-4d51-93d2-fe2cd2ff9e3f.png)
+
 ### 4.3)    Daily Temperature Normals
 
 1)  Calculate the daily normals for the duration of the trip. Normals are the averages for the minimum, average, and maximum temperatures.
 2)  Load the list of daily normals into a Pandas DataFrame, and set the index equal to the date.
+
+![image](https://user-images.githubusercontent.com/111614210/201548742-cf3f8f83-c7a8-462b-8a7e-d576ca2bd3cd.png)
+
 3)  Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
+
+![image](https://user-images.githubusercontent.com/111614210/201548763-8a5681c1-0bfb-462c-876a-b133c089aed8.png)
 
 The Jupyter notebook used can be found in **SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_2.ipynb**
 
 ## 5)   Files Uploaded
-1)  Input SQLite and csv files: SqlAlchemy_Challenge\SurfsUp\Resources\
-2)  Data Analysis Jupyter Notebook: SqlAlchemy_Challenge\SurfsUp\climate.ipynb
-3)  Climate App Python file: SqlAlchemy_Challenge\SurfsUp\app.py
-4)  Bonus 1 Jupyter Notebook: SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_1.ipynb
-5)  Bonus 2 Jupyter Notebook: SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_2.ipynb
+1)  **Input SQLite and csv files**: SqlAlchemy_Challenge\SurfsUp\Resources\
+2)  **Climate Data Analysis Jupyter Notebook**: SqlAlchemy_Challenge\SurfsUp\climate.ipynb
+3)  **Climate App Python file**: SqlAlchemy_Challenge\SurfsUp\app.py
+4)  **Bonus 1 Jupyter Notebook**: SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_1.ipynb
+5)  **Bonus 2 Jupyter Notebook**: SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_2.ipynb
 
