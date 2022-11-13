@@ -26,3 +26,4 @@ For this, the connection between Python and SQLite Database is established by pe
 3)  Use a query that calculates the lowest, highest, and average temperatures for most-active station.
 4)  Design a query to get the previous 12 months of temperature observation (TOBS) data for most-active station.
 5)  Plot the results as a histogram with bins=12.
+6)  Close the session.
