@@ -68,5 +68,27 @@ The Jupyter notebook used can be found in **SqlAlchemy_Challenge\SurfsUp\climate
   
 ![image](https://user-images.githubusercontent.com/111614210/201546029-74eab65a-d199-4f28-8734-be215bf08738.png)![image](https://user-images.githubusercontent.com/111614210/201546075-d5344125-6771-4a75-9bce-f28aa5004e85.png)
 
+The Python script used can be found in **SqlAlchemy_Challenge\SurfsUp\app.py**
 
+## 3) Bonus 1: Trip Temperature Analysis 1
+This analysis is performed to answer the following question: Hawaii is reputed to enjoy mild weather all year round. Is there a meaningful difference between the temperatures in, for example, June and December?
+
+1)  The hypotheses used to answer the question above are as follows:
+**Null Hypothesis**: Hawaii is reputed to enjoy mild weather all year round. The temperatures in June and December similar.
+**Alternate Hypothesis**: The temperatures in June and December are different.
+2)  Calculate the average temperature in June and December at all stations across all available years in the dataset.
+3)  Run t-test. An unpaired t-test should be used here, as the size of the June and December tobs data are different.
+4)  The unpaired t-test performed on the June and December collections gives the following results:
+-   The p-value (3.9025129038616655e-191) is less than 0.05, so the null hypothesis can be rejected.
+-   This means that the alternate hypothesis stands true.
+-   This is also confirmed by the mean June and December temperatures calculated above. The December average temperature is around 4F less than that of June.
+
+
+
+The Jupyter notebook used can be found in **SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_1.ipynb**
+
+## 4) Bonus 2: Trip Temperature Analysis 2
+
+
+The Jupyter notebook used can be found in **SqlAlchemy_Challenge\SurfsUp\temp_analysis_bonus_2.ipynb**
 
